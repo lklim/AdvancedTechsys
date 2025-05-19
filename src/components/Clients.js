@@ -1,7 +1,7 @@
 import React from 'react';
-import kws from '../images/clients/kws.png';
-import geps from '../images/clients/geps.png';
-import protergia from '../images/clients/protergia.png';
+import kws from '../images/clients/A Plus Student.jpg';
+import geps from '../images/clients/Saint Pauls College, VA.jpg';
+import protergia from '../images/clients/Stillman College, AL.jpg';
 
 const clientImage = {
     height: '10rem',
@@ -18,7 +18,7 @@ const Clients = () => {
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
                         </div>
-                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Some of our clients.</h2>
+                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Some of our customers.</h2>
                     </div>
 
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
