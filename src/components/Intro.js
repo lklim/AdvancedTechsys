@@ -20,7 +20,7 @@ const Intro = () => {
                             </div>
                             
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>We take responsibility for building custom software solutions that caters for automation of your business processes and improve efficiency.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>"Our team can build custom computer programs to help your business work more efficiently and automatically handle tasks. We're skilled in creating these kinds of tools."</p>
                             </div>
                             <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Contact us
