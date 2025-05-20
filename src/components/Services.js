@@ -36,7 +36,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Mobile Application</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                    We build and improve websites specifically for businesses and organizations, no matter how big they are. We make sure these websites also work well on phones and are easy for people to use.
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Web Domain Hosting</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
+                                    We help people and organizations get their own web addresses (like a digital street address) and a place to put their website online, so they can be seen on the internet.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Tech Consultations</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                    We offer expert advice and help for businesses and individuals who want to make their computer systems and technology work better.
                                     </p>
                                 </div>
                             </div>                    
@@ -75,7 +75,7 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    Combining dacades of experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
+                                With many years of experience in understanding and designing computer programs, and knowing all the newest technology, we give you specific advice and plans to help your business work better, save money, and be more efficient.
                                 </p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">We <span className='font-black'>Collaborate</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>We can collaborate with your existing tech team to scale existing software applications or design customized software solutions driven by cutting edge AI that suits your everyday need and simplifies various processes.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'> We can work with your current tech people to make your existing computer programs bigger and better, or we can create new, special programs using the latest smart technology (AI) to help with your daily tasks and make things simpler.</p>
                             </div>
                         </div>
                     </div>
