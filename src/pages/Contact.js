@@ -31,20 +31,30 @@ const Contact = () => {
         e.preventDefault();
         document.getElementById('submitBtn').disabled = true;
         document.getElementById('submitBtn').innerHTML = 'Loading...';
+        /*
         let fData = new FormData();
-        fData.append('first_name', firstName)
-        fData.append('last_name', lastName)
+        // fData.append('first_name', firstName)
+        // fData.append('last_name', lastName)
+        fData.append('name', firstName + " " + lastName)
         fData.append('email', email)
-        fData.append('phone_number', phone)
-        fData.append('message', message)
-
+        // fData.append('phone_number', phone)
+        fData.append('message',  "hp: " + phone + " " + message)
+        */
+        let details = {
+            name: firstName + " " + lastName,
+            email: email,
+            message: "hp: " + phone + " " + message
+          };
         axios({
             method: "post",
             url: process.env.REACT_APP_CONTACT_API,
-            data: fData,
+            // data: fData,
+            // data: JSON.stringify(details),
             headers: {
-                'Content-Type':  'multipart/form-data'
-            }
+              //  'Content-Type':  'multipart/form-data'
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            data: JSON.stringify(details),
         })
         .then(function (response) {
             document.getElementById('submitBtn').disabled = false;
@@ -93,6 +103,7 @@ const Contact = () => {
                                 <div>
                                     <input 
                                         name="first_name" 
+                                        id="fname"
                                         className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                                         type="text" 
                                         placeholder="First Name*" 

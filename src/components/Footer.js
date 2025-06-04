@@ -37,9 +37,7 @@ const Footer = () => {
                         <li className="mb-2">
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>  
-                        <li className="mb-2">
-                            <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Portfolio</HashLink>
-                        </li>                           
+                                                  
                         </ul>
                     </div>
 
