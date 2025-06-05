@@ -48,13 +48,20 @@ const DemoProduct = (props) => {
         e.preventDefault();
         document.getElementById('submitBtn').disabled = true;
         document.getElementById('submitBtn').innerHTML = 'Loading...';
+        /*
         let fData = new FormData();
         fData.append('first_name', firstName)
         fData.append('last_name', lastName)
         fData.append('email', email)
         fData.append('phone_number', phone)
         fData.append('message', message)
-        fData.append('products', demoProducts)
+        fData.append('products', demoProducts) */
+
+        let details = {
+            name: firstName + " " + lastName,
+            email: email,
+            message: "hp: " + phone + ", Products to Demo: " + demoProducts + ", details: " + message
+          };
 
         // emailjs.sendForm('service_7uy4ojg', 'template_et9wvdg', e.target, 'user_uE0bSPGbhRTmAF3I2fd3s')
         //   .then((result) => {
@@ -76,10 +83,12 @@ const DemoProduct = (props) => {
         axios({
             method: "post",
             url: process.env.REACT_APP_DEMO_REQUEST_API,
-            data: fData,
+            // data: fData,
             headers: {
-                'Content-Type':  'multipart/form-data'
-            }
+            //   'Content-Type':  'multipart/form-data'
+            "Content-Type": "application/json;charset=utf-8",
+            },
+            data: JSON.stringify(details),
         })
         .then(function (response) {
             document.getElementById('submitBtn').disabled = false;

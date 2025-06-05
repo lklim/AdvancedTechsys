@@ -38,12 +38,12 @@ const Contact = () => {
         fData.append('name', firstName + " " + lastName)
         fData.append('email', email)
         // fData.append('phone_number', phone)
-        fData.append('message',  "hp: " + phone + " " + message)
-        */
+        fData.append('message',  "hp: " + phone + " " + message) */
+        
         let details = {
             name: firstName + " " + lastName,
             email: email,
-            message: "hp: " + phone + " " + message
+            message: "hp: " + phone + ", details: " + message
           };
         axios({
             method: "post",
