@@ -192,7 +192,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex flex-col">
                                         <h2 className="text-2xl">International Offices</h2>
-                                        <p className="text-gray-400">NY / KL / Tokyo</p>
+                                        <p className="text-gray-400">NY / SEA / Tokyo</p>
                                     </div>
                                 </div>
                     
