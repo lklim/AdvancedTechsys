@@ -265,7 +265,7 @@ const DemoProduct = (props) => {
                                 </div>
                                 <div className="flex flex-col">
                                 <h2 className="text-2xl">International Offices</h2>
-                                <p className="text-gray-400">NY / KL / Tokyo</p>
+                                <p className="text-gray-400">NY / SEA / Tokyo</p>
                                 </div>
                             </div>
                             
@@ -280,7 +280,7 @@ const DemoProduct = (props) => {
                                 
                                     <div className='mt-5'>
                                         <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@advancedtechsys.co</p>
+                                        <p className="text-gray-400">enquiry@advancedtechsys.co</p>
                                     </div>
                             
                                 </div>
