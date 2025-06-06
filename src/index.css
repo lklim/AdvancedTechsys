@@ -9,8 +9,8 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.hero {
-  background: url(./images/hero-bg.svg) top center no-repeat;
+.Brand {
+  background: url(./images/brand-bg.svg) top center no-repeat;
   background-size: cover;
 }
 

@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-// import heroImg from '../images/web-dev.svg';
-import heroImg from '../images/ats-demo.gif';
+// import BrandImg from '../images/web-dev.svg';
+import BrandImg from '../images/ats-demo.gif';
 
-const Hero = () => {
+const Brand = () => {
     return (
         <>
-            <div className="hero" id='hero'>
+            <div className="Brand" id='Brand'>
                 <div>
                     <NavBar />
                 </div>
                 
                 <div className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
 
-                    <div id='hero' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
+                    <div id='Brand' className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
@@ -37,7 +37,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={BrandImg} />
                         </div>
                     </div>
                 </div>
@@ -46,4 +46,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Brand;

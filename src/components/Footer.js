@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import brandimg from '../images/brand.svg';
 
 const Footer = () => {
     return (
@@ -13,15 +14,15 @@ const Footer = () => {
 
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
-                        <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
+        
+                        <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto"> 
                             <h3 className="font-bold text-4xl mb-4">Advanced Tech Sys</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Solutions & Consultations</h5>
-                                <p>NJ,</p>
-                                <p>Manhatten,</p>
-                                <p>NY State.</p>
+                                <h5>Solutions & Consultations Intl.</h5>
+                                <p>NY, Tokyo, Singapore</p>
+                              
                             </div>
-                        </div>
+                          </div>
                     </div>
 
                     {/* 2nd block */}
