@@ -139,7 +139,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded" 
                                     value="Business_AI_Integration_System" onChange={handleChange}
                                  />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Business AI Integration System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Engineering Integration System</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -149,7 +149,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="Education_Learning_portal" onChange={handleChange}
                                     />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Education Learning portal</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Engineering Project Management Solution</label>
                             </div>
                             <div className="flex items-center my-4">
                                 <input 
@@ -169,7 +169,7 @@ const DemoProduct = (props) => {
                                     className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
                                     value="Event_Management_System" onChange={handleChange}
                                 />
-                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Event Management System</label>
+                                <label htmlFor="checkbox-1" className="ml-3 text-lg font-medium text-gray-900">Power Management System</label>
                             </div>
                             {errors && 
                                 <p className="text-red-500 text-sm">{errors.products}</p>
