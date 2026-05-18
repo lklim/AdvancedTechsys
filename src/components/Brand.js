@@ -18,7 +18,7 @@ const Brand = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                                Bespoke Engineering solutions for each of our clients unique business requirements
+                                Bespoke Engineering solutions for each of our clients unique business requirement
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">We are a team of highly motivated and skilled Engineers dedicated to delivering only the best solutions for you.</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
