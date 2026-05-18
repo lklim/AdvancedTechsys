@@ -31,7 +31,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Advanced Tech Sys | IT Engineering Solutions & Consultation - Bespoke AI Solutions for your needs");
+  useDocTitle("Advanced Tech Sys | Power Engineering Solutions & Services - Bespoke Engineering Solutions for your needs");
 
   return (
     <>
