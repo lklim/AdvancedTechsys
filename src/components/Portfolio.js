@@ -29,7 +29,7 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Payroll System</h4>
+                            <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Engineering Helpdesk Support</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
                                 You can rely on 24/7 365 support to keep your Engineering Operations always up , always working in tiptop condition. 
                                 </p>
@@ -45,9 +45,9 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">School E-Portal Suits</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Energy Power Management Suits</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                Our Engineering Helpdesk Support is a single point that any client of ours can access. It helps companies manage their everyday operations smoothly.
+                                Our Power Management support is a single point that any client of ours can access. It helps companies manage their everyday operations smoothly.
                                 </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
@@ -72,7 +72,7 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Construction Work Sites Support Team</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Work Sites Support Team</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
                                 Our capable service enable you to organize any kind of work task. 
                                 </p>
