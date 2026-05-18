@@ -14,13 +14,13 @@ const Intro = () => {
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">We develop high quality bespoke web/On prem/turnkey solutions for organizations small or big</h3>
+                            <h3 className="text-3xl  text-blue-900 font-bold">We develop high quality bespoke web/On prem/turnkey Engineering solutions for organizations small or big</h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Our team is well vast in software development/Engineering/Data Analysis and is ready to help develop the applications of your choice.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Our team is well vast in Project development/Engineering/Solution Delivery and is ready to help develop the solutions of your choice.</p>
                             </div>
                             
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>"Our team can build custom computer programs to help your business work more efficiently and automatically handle tasks. We're skilled in creating these kinds of tools."</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>"Our team can build custom turnkey solutions to help your business work more efficiently and seamlessly process tasks. We're skilled in creating these kinds of tools."</p>
                             </div>
                             <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Contact us
