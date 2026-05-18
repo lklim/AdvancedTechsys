@@ -24,9 +24,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Application</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Power Management</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                        We specialize in creating and optimizing high-quality, Engineering solutions for businesses and organizations of all sizes.
                                     </p>
                                 </div>
                             </div>
@@ -34,9 +34,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Mobile Application</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Tooling Solutions</h2>
                                     <p className="text-md font-medium">
-                                    We build and improve websites specifically for businesses and organizations, no matter how big they are. We make sure these websites also work well on phones and are easy for people to use.
+                                    We build and improve Engineering Projects specifically for businesses and organizations, no matter how big they are. We make sure these websites also work well on phones and are easy for people to use.
                                     </p>
                                 </div>
                             </div>
@@ -44,9 +44,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Web Domain Hosting</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Engineering Site Greenfield/Brownfield Installation</h2>
                                     <p className="text-md font-medium">
-                                    We help people and organizations get their own web addresses (like a digital street address) and a place to put their website online, so they can be seen on the internet.
+                                    We help people and organizations get their construction site setup rapidly.
                                     </p>
                                 </div>
                             </div>
@@ -54,9 +54,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Tech Consultations</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Engineering Consultations</h2>
                                     <p className="text-md font-medium">
-                                    We offer expert advice and help for businesses and individuals who want to make their computer systems and technology work better.
+                                    We offer expert advice and help for businesses and individuals who want to make their Engineering sites and technology work better.
                                     </p>
                                 </div>
                             </div>                    
@@ -75,7 +75,7 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                With many years of experience in understanding and designing computer programs, and knowing all the newest technology, we give you specific advice and plans to help your business work better, save money, and be more efficient.
+                                With many years of experience in understanding and designing Engineering solutions, and knowing all the cutting edge ideas, we give you specific advice and plans to help your business work better, save money, and be more efficient.
                                 </p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">We <span className='font-black'>Collaborate</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'> We can work with your current tech people to make your existing computer programs bigger and better, or we can create new, special programs using the latest smart technology (AI) to help with your daily tasks and make things simpler.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'> We can work with your current Engineering people to make your existing work sites more nimble and better!</p>
                             </div>
                         </div>
                     </div>
